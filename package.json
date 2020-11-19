@@ -1,0 +1,34 @@
+{
+  "name": "fastify-redis-channels-worker-example",
+  "version": "1.0.0",
+  "description": "An example used in a https://github.com/hearit-io/fastify-redis-channels plugin.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hearit-io/fastify-redis-channels-worker-example.git"
+  },
+  "keywords": [
+    "fastify",
+    "redis",
+    "channels",
+    "worker",
+    "example"
+  ],
+  "author": "Emil Usunov <emil@hearit.io>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/hearit-io/fastify-redis-channels-worker-example/issues"
+  },
+  "homepage": "https://github.com/hearit-io/fastify-redis-channels-worker-example#readme",
+  "dependencies": {
+    "@hearit-io/redis-channels": "^1.1.0",
+    "fastify": "^3.8.0",
+    "fastify-redis-channels": "^1.1.2"
+  },
+  "devDependencies": {
+    "standard": "^16.0.3"
+  }
+}
